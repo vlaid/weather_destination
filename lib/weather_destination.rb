@@ -43,8 +43,7 @@ module WeatherDestination
 
     def return_data(method, query_data)
       url = URI("#{BASE_URL}#{method}.json?key=#{api_token}&#{query_data}")
-      body = get_response(url)
-      body[:current][:feelslike_c]
+      get_response(url)
     end
   end
 end
