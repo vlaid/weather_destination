@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q(Simple API Weather.)
   spec.description   = %q(Simple API Wheather.)
   spec.homepage      = 'https://github.com/vlaid/weather_destination'
-  spec.license       = 'MIT'
+  # spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
