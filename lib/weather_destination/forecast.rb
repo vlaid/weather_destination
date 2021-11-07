@@ -12,7 +12,7 @@ module WeatherDestination
     def query_params(params)
       {
         q: params[:city],
-        days: params[:days] || 1,
+        days: params[:days].to_i || 1,
         api: params[:api] || 'no',
         alerts: params[:alerts] || 'no'
       }.to_query
